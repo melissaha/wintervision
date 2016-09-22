@@ -554,11 +554,14 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #222222;
-  background-image: url('../img/map-image.png');
-  background-position: center;
+  background-image: url('../img/contact-us-background.jpg');
+  background-position: center center;
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
+
 section#contact .section-heading {
   color: white;
 }
